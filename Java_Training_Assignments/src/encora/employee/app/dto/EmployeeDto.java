@@ -15,12 +15,12 @@ public class EmployeeDto {
 
 	private Boolean nps;
 
-	private Boolean medilcaim;
+	private Boolean mediclaim;
 
 	private String officeLocation;
-	
+
 	private String employeeAddress;
-	
+
 	private int employeeSalary;
 
 	public int getEmployeeID() {
@@ -79,12 +79,12 @@ public class EmployeeDto {
 		this.nps = nps;
 	}
 
-	public Boolean getMedilcaim() {
-		return medilcaim;
+	public Boolean getMediclaim() {
+		return mediclaim;
 	}
 
-	public void setMedilcaim(Boolean medilcaim) {
-		this.medilcaim = medilcaim;
+	public void setMediclaim(Boolean medilcaim) {
+		this.mediclaim = medilcaim;
 	}
 
 	public String getOfficeLocation() {
@@ -115,10 +115,8 @@ public class EmployeeDto {
 	public String toString() {
 		return "EmployeeDto [employeeID=" + employeeID + ", employeeName=" + employeeName + ", gender=" + gender
 				+ ", pf=" + pf + ", graduity=" + graduity + ", mealCard=" + mealCard + ", nps=" + nps + ", medilcaim="
-				+ medilcaim + ", officeLocation=" + officeLocation + ", employeeAddress=" + employeeAddress
+				+ mediclaim + ", officeLocation=" + officeLocation + ", employeeAddress=" + employeeAddress
 				+ ", employeeSalary=" + employeeSalary + "]";
 	}
-	
-	
 
 }
